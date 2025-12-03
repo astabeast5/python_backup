@@ -3,10 +3,9 @@
 
 Getting Started
 
-**Clone the repository:**
-git clone https://github.com/LondheShubham153/python-for-devops-masterclass.git
+git clone https://github.com/astabeast5/python_backup
 
-cd advanced/
+cd python_backup/flask/
 
 **Install the dependencies:**
 pip3 install -r requirements.txt
