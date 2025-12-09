@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  web:
+    image: nginx
+    ports:
+      - "80:80"
+  database:
+    image: pstgres
+    environment:
+      POSTGRES_DB: myapp
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: secret123
+
+      
